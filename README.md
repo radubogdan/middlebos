@@ -11,7 +11,7 @@ No bloat, just [Haml](http://haml-lang.com/), [SASS](http://sass-lang.com/)
 Clone this repository on your local machine:
 
 ```
-git clone http://github.com/radubogdan/middleman-hss-boilerplate my_new_clean_project
+git clone https://github.com/radubogdan/middlebos.git my_proj
 ```
 
 Build everything with ```middleman build```, and modify
@@ -25,4 +25,4 @@ config.rb with correct credentials to deploy via rsync.
 
 ## License
 
-* [MIT license](https://github.com/radubogdan/blob/master/LICENSE.txt)
+* [MIT license](https://raw.githubusercontent.com/radubogdan/middlebos/master/LICENSE.txt)
