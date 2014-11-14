@@ -1,0 +1,46 @@
+// Always compass first
+@import "compass"
+
+// Import Bootstrap
+@import 'css/bootstrap.min'
+@import 'css/bootstrap-theme.min'
+
+// From vendor folder
+@import 'css/animate-custom'
+
+// Def mixins, variables and general
+@mixin backstrech($image)
+  background-image: url(image_path($image))
+  background-position: 50%
+  background-repeat: no-repeat
+  background-size: cover
+  height: 100%
+
+@mixin bg-image($image, $width, $height)
+  background: url(image_path($image)) no-repeat
+  height: $height
+  width: $width
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,400italic)
+
+body
+  font-family: 'Open Sans'
+
+h1
+  font-size: 29px
+  font-weight: 600
+
+h2
+  font-size: 26.6px
+  font-weight: 400
+
+h3
+  font-size: 20px
+  font-weight: 600
+
+p
+  font-size: 17px
+  font-weight: 400
+
+// Import here
+// @import 'partials/X'
